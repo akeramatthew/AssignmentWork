@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true"
+    tools:context="com.example.helloworld.assignmentwork.MainActivity">
+
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/card_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="9dp"
+        card_view:cardCornerRadius="20dp"
+        card_view:cardElevation="100dp">
+
+    <ScrollView android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textname"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/hello"
+        android:textSize="20dp"
+        android:padding="12dp"
+        android:textColor="#283593"
+        />
+
+    <TextView
+        android:id="@+id/textNameOutput"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="20dp"
+
+        android:padding="12dp"
+        android:textColor="#000000"/>
+
+<TextView
+    android:id="@+id/text1"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:text="@string/qn1answer"
+    android:textSize="16dp"
+    android:padding="12dp"
+    android:textColor="#283593"
+    />
+
+    <TextView
+        android:id="@+id/textQuestion1Output"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        />
+
+    <TextView
+        android:id="@+id/text2"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/qn2anwer"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#283593"
+        />
+
+
+    <TextView
+        android:id="@+id/textQuestion2Output"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:id="@+id/text3"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/answer3"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#283593"
+        />
+
+
+    <TextView
+        android:id="@+id/textQuestion3Output"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        />
+
+
+    <TextView
+        android:id="@+id/text4"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/qn4answer"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#283593"
+        />
+
+
+    <TextView
+        android:id="@+id/textQuestion4Output"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+
+        />
+
+
+    <TextView
+        android:id="@+id/text5"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:text="@string/qn5answer"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#283593"
+        />
+
+
+    <TextView
+        android:id="@+id/textQuestion5Output"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:textSize="16dp"
+        android:padding="12dp"
+        android:textColor="#000000"
+        />
+
+        <Button
+            android:id="@+id/ViewAnswers"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+          android:layout_margin="10dp"
+            android:text="View Answers"
+            android:layout_gravity="center_horizontal"
+
+
+            />
+
+
+
+</LinearLayout>
+
+</ScrollView>
+
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
+
